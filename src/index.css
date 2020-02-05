@@ -1,0 +1,54 @@
+body {
+  margin: 0px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  font-size: 15px;
+  /*background-image: url(JPEG\table.jpg);*/
+  background-color: green;
+  background-size: cover;
+  height : 100vh;
+  
+}
+
+.total {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* the magic */
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0px 0px auto 20px;
+  background-color: #e74c3c;
+
+}
+
+.Title {
+  text-align: center;
+}
+
+.hit-card {
+  color:white;
+  background-color: blue;
+  border : none;
+
+}
+
+.stand-card {
+  color:white;
+  background-color:red;
+  border:none;
+}
+
+.total-text {
+  margin-top: 35px;
+  font-size: 25px;
+}
